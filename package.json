@@ -1,0 +1,23 @@
+{
+  "name": "furry_tool",
+  "version": "1.0.0",
+  "description": "一个简单的Furry工具站",
+  "repository": "https://github.com:FurryRbl/SharpIce_FurryTool.git",
+  "homepage": "https://github.com:FurryRbl/SharpIce_FurryTool",
+  "bugs": "https://github.com:FurryRbl/FSharpIce_urryTool/issues",
+  "main": "main.js",
+  "author": {
+    "name": "SharpIce",
+    "email": "VupRbl@163.com",
+    "url": "https://SharpIce.top"
+  },
+  "license": "GPL-3.0",
+  "private": false,
+  "engines": {
+    "node": ">=19"
+  },
+  "scripts": {
+    "dev": "node main.js dev",
+    "produce": "node main.js produce"
+  }
+}
