@@ -19,5 +19,6 @@
   "scripts": {
     "dev": "node main.js dev",
     "produce": "node main.js produce"
-  }
+  },
+  "dependencies": {}
 }
