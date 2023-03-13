@@ -1,5 +1,10 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import Home from './Home.vue'
 
-createApp(App).mount('#app')
+Vue.use(ElementUI);
+
+new Vue({
+    el: '#home',
+    render: h => h(Home)
+});

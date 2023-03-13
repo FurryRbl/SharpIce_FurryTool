@@ -1,18 +1,10 @@
 const router = require('koa-router')()
 
 router.get('/', async (ctx, next) => {
-  await ctx.render('index', {
-    title: 'Hello Koa 2!'
-  })
-})
-
-router.get('/string', async (ctx, next) => {
-  ctx.body = 'koa2 string'
-})
-
-router.get('/json', async (ctx, next) => {
+  ctx.status = 404;
   ctx.body = {
-    title: 'koa2 json'
+    code : ctx.res.statusCode,
+    msg: '这里是API端！如需要使用请阅读文档！'
   }
 })
 

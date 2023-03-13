@@ -1,7 +1,7 @@
 {
-  "name": "furry_tool",
+  "name": "fluorescent_furry",
   "version": "1.0.0",
-  "description": "一个简单的Furry工具站",
+  "description": "一个Furry站点",
   "repository": "https://github.com:FurryRbl/SharpIce_FurryTool.git",
   "homepage": "https://github.com:FurryRbl/SharpIce_FurryTool",
   "bugs": "https://github.com:FurryRbl/FSharpIce_urryTool/issues",
@@ -19,6 +19,5 @@
   "scripts": {
     "dev": "node main.js dev",
     "produce": "node main.js produce"
-  },
-  "dependencies": {}
+  }
 }
