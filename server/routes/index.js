@@ -8,4 +8,11 @@ router.get('/', async (ctx, next) => {
   }
 })
 
+router.get('/status', async (ctx, next) => {
+  ctx.status = 200;
+  ctx.body = {
+    code : ctx.res.statusCode
+  }
+})
+
 module.exports = router
